@@ -4,6 +4,6 @@ import org.junit.*;
 public class SkillDemoTest {
     @Test
     public void testAlwaysTrue() {
-        assertEquals(false, SkillDemo.alwaysTrue());// fails
+        assertEquals(true, SkillDemo.alwaysTrue());// fix
     }
 }
